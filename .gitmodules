@@ -1,0 +1,4 @@
+[submodule "physik_hackr/public"]
+	path = physik_hackr/public
+	url = https://github.com/iowafloyd/physik_hackr.github.io.git
+	branch = main

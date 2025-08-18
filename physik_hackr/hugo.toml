@@ -1,0 +1,4 @@
+baseURL = 'https://physik_hackr.github.io/'
+languageCode = 'en-us'
+title = 'Physik Hackr - An Engineer Blog'
+theme = "hugo-blog-awesome"
