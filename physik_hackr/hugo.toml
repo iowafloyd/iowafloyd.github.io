@@ -1,4 +1,6 @@
 baseURL = 'https://physik_hackr.github.io/'
 languageCode = 'en-us'
-title = 'Physik Hackr - An Engineer Blog'
+title = 'Physik Hackr - A Nerd Blog'
 theme = "hugo-blog-awesome"
+[params]
+  goToTop = true
