@@ -1,0 +1,24 @@
+baseURL = 'https://iowafloyd.github.io/'
+languageCode = 'en-us'
+title = 'iowafloyd - an enginerd blog'
+
+theme = "hugo-blog-awesome"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/hugo-sid"
+
+[[params.socialIcons]]
+name = "Rss"
+url = "/index.xml"
+
+[[params.socialIcons]]
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/cameronneff/"
+
+[params]
+  goToTop = true
+
+[module]
+  [[module.imports]]
+    path = "github.com/hugo-sid/hugo-blog-awesome"
