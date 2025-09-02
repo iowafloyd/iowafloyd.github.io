@@ -1,8 +1,8 @@
 baseURL = 'https://github.com/iowafloyd/iowafloyd.github.io/'
 languageCode = 'en-us'
-title = 'iowafloyd - an enginerd blog'
+title = 'iowafloyd - an engineering blog'
 
-theme = "hugo-blog-awesome"
+theme = 'hugo-blog-awesome'
 
 [[params.socialIcons]]
 name = "github"
@@ -18,7 +18,3 @@ url = "https://www.linkedin.com/in/cameronneff/"
 
 [params]
   goToTop = true
-
-[module]
-  [[module.imports]]
-    path = "github.com/hugo-sid/hugo-blog-awesome"
