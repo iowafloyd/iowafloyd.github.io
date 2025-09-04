@@ -1,36 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on iowafloyd - an engineering blog</title>
+    <title>iowafloyd - an engineering blog</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in Home on iowafloyd - an engineering blog</description>
+    <description>Recent content on iowafloyd - an engineering blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 01 Sep 2025 15:39:03 -0500</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hello_world</title>
-      <link>http://localhost:1313/posts/hello_world/</link>
-      <pubDate>Mon, 01 Sep 2025 15:39:03 -0500</pubDate>
-      
-      <guid>http://localhost:1313/posts/hello_world/</guid>
-      
-      <description>&lt;h1 id=&#34;hello-world&#34;&gt;Hello, World!&lt;/h1&gt;
-&lt;p&gt;I am &lt;strong&gt;iowafloyd&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;As you may have guessed from the moniker, I (a) live in the United States state of Iowa, and (b) am very much influenced by the Prog Rock band Pink Floyd. Iowafloyd has been my online handle ever since the Internet grew from ARPANET in the 1990&amp;rsquo;s.&lt;/p&gt;
-&lt;p&gt;I have a Bachelor of Science degree in Mechanical Engineering, and mechanical engineering has been my profession since the late 20-aughts. In my spare time, however, and when the need arises in my day job, I code. My company&amp;rsquo;s IT team limits me to Excel and VBA, but outside of work I&amp;rsquo;ve used: QBASIC (for 90&amp;rsquo;s DOS games), HTML/CSS/Javascript (for late 90&amp;rsquo;s and early 2000&amp;rsquo;s web design), and lately Python and a mixture of TensorFlow/PyTorch.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://localhost:1313/pages/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/pages/about/</guid>
-      
-      <description>&lt;h1 id=&#34;this-will-be-my-about-me-section&#34;&gt;This will be my About Me section&lt;/h1&gt;</description>
-      
-    </item>
-    
+    <language>en-gb</language><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
