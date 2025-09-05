@@ -1,8 +1,7 @@
-+++
+---
 date = '2025-09-01T15:39:03-05:00'
-draft = false
-title = 'Hello_world'
-+++
+title = 'Hello, world'
+---
 
 Hello, World!
 =============
