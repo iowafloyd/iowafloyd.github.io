@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on iowafloyd - an engineering blog</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content in Home on iowafloyd - an engineering blog</description>
+    <title>Abouts on iowafloyd - an engineering blog</title>
+    <link>http://localhost:1313/about/</link>
+    <description>Recent content in Abouts on iowafloyd - an engineering blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>http://localhost:1313/about/about/</link>
@@ -26,25 +26,6 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;informal-education&#34;&gt;(Informal) Education&lt;/h2&gt;
 &lt;p&gt;Working in these industries has been interesting, challenging, rewarding, and fun. When not doing that, I enjoy coding in my free time. I find coding to be so much more creative than engineering. You&amp;rsquo;re not limited to pesky things like physics. These are the main languages I&amp;rsquo;ve used:&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Hello World</title>
-      <link>http://localhost:1313/posts/hello-world/</link>
-      <pubDate>Mon, 01 Sep 2025 18:00:00 -0600</pubDate>
-      
-      <guid>http://localhost:1313/posts/hello-world/</guid>
-      
-      <description>&lt;h1 id=&#34;hello-world&#34;&gt;Hello, World!&lt;/h1&gt;
-&lt;p&gt;I am &lt;strong&gt;iowafloyd&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;As you may have guessed from the moniker, I:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;live in the United States state of Iowa, and&lt;/li&gt;
-&lt;li&gt;am very much influenced by the Prog Rock band Pink Floyd.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Iowafloyd has been my online self ever since I created my first email address in the mid-90&amp;rsquo;s.&lt;/p&gt;
-&lt;p&gt;I have a Bachelor of Science degree in Mechanical Engineering, and mechanical engineering has been my profession since the late 20-aughts. In my spare time, however, and when the need arises in my day job, I code. My company&amp;rsquo;s IT team limits me to Excel and VBA, but outside of work I&amp;rsquo;ve used&lt;/p&gt;</description>
       
     </item>
     

@@ -39,7 +39,7 @@ ignoreErrors = ["additional-script-loading-error"]
 [Languages.en-us]
  languageName = "English"
  languageCode = "en-us"
- contentDir = "content/en"
+ contentDir = "content"
  weight = 1
 
 [Languages.en-us.menu]
@@ -66,7 +66,7 @@ ignoreErrors = ["additional-script-loading-error"]
  tocOpen = true
  goToTop = true
 # additionalScripts = ["js/custom.js", "js/custom-2.js"]
- dateFormat = "2025/09/01"
+ dateFormat = "02 Jan 2006"
  rssFeedDescription = "summary"
 
 [Languages.en-us.params.author]

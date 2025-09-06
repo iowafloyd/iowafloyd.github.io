@@ -6,18 +6,23 @@
     <description>Recent content in Posts on iowafloyd - an engineering blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Sep 2025 15:39:03 -0500</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Sep 2025 18:00:00 -0600</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hello_world</title>
-      <link>http://localhost:1313/posts/hello_world/</link>
-      <pubDate>Mon, 01 Sep 2025 15:39:03 -0500</pubDate>
+      <title>Hello World</title>
+      <link>http://localhost:1313/posts/hello-world/</link>
+      <pubDate>Mon, 01 Sep 2025 18:00:00 -0600</pubDate>
       
-      <guid>http://localhost:1313/posts/hello_world/</guid>
+      <guid>http://localhost:1313/posts/hello-world/</guid>
       
       <description>&lt;h1 id=&#34;hello-world&#34;&gt;Hello, World!&lt;/h1&gt;
 &lt;p&gt;I am &lt;strong&gt;iowafloyd&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;As you may have guessed from the moniker, I (a) live in the United States state of Iowa, and (b) am very much influenced by the Prog Rock band Pink Floyd. Iowafloyd has been my online handle ever since the Internet grew from ARPANET in the 1990&amp;rsquo;s.&lt;/p&gt;
-&lt;p&gt;I have a Bachelor of Science degree in Mechanical Engineering, and mechanical engineering has been my profession since the late 20-aughts. In my spare time, however, and when the need arises in my day job, I code. My company&amp;rsquo;s IT team limits me to Excel and VBA, but outside of work I&amp;rsquo;ve used: QBASIC (for 90&amp;rsquo;s DOS games), HTML/CSS/Javascript (for late 90&amp;rsquo;s and early 2000&amp;rsquo;s web design), and lately Python and a mixture of TensorFlow/PyTorch.&lt;/p&gt;</description>
+&lt;p&gt;As you may have guessed from the moniker, I:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;live in the United States state of Iowa, and&lt;/li&gt;
+&lt;li&gt;am very much influenced by the Prog Rock band Pink Floyd.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Iowafloyd has been my online self ever since I created my first email address in the mid-90&amp;rsquo;s.&lt;/p&gt;
+&lt;p&gt;I have a Bachelor of Science degree in Mechanical Engineering, and mechanical engineering has been my profession since the late 20-aughts. In my spare time, however, and when the need arises in my day job, I code. My company&amp;rsquo;s IT team limits me to Excel and VBA, but outside of work I&amp;rsquo;ve used&lt;/p&gt;</description>
       
     </item>
     
