@@ -1,7 +1,7 @@
----
-date = '2025-09-01T15:39:03-05:00'
-title = 'Hello, world'
----
++++
+date = "2025-09-01"
+title = "Hello World"
++++
 
 Hello, World!
 =============

@@ -1,8 +1,8 @@
----
++++
 title: "About"
-date: 2025-09-05
+date: "2025-09-05"
 languageCode: "en-us"
----
++++
 
 # About me
 
@@ -14,5 +14,4 @@ I have a Bachelor of Science in Mechanical Engineering, and I've worked in sever
 
 When not doing that, I enjoy coding in my free time. Ideally I would find a career that merges both. **Robotics**, anyone?
 
-Anyway, when I discovered that I could host a blog for free on GitHub, I just had to give it a shot!
 
