@@ -1,6 +1,6 @@
 ---
 title: "Home"
-author : "iowafloyd"
+author: "iowafloyd"
 ---
 
-![Astronaut suit in front of galaxy with Pink Floyd's PULSE on visor](/assets/img/iowafloyd_small.png)
+![Astronaut with galaxy behind, Pink Floyd's PULSE on visor](assets/img/iowafloyd_small.png "iowafloyd")

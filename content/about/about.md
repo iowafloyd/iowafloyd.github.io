@@ -34,5 +34,5 @@ I'm a contemporary polyglot of the following subjects:
 
 - Sci-Fi novels
 - Math (in all its many flaors)
-- Physics (Newtonian)
+- Physics (Classical)
 - Physics (Quantum)

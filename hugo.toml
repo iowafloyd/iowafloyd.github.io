@@ -5,7 +5,7 @@ theme = "hugo-blog-awesome"
 
 [[params.socialIcons]]
  name = "github"
- url = "https://github.com/hugo-sid"
+ url = "https://github.com/iowafloyd"
 
 [[params.socialIcons]]
  name = "Rss"
