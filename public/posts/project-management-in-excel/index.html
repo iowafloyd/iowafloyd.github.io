@@ -1,5 +1,9 @@
 <!DOCTYPE html>
-<html lang="en-us"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<html lang="en-us" dir="ltr">
+<script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><link rel="stylesheet" href="/css/lightbox.css">
+<script src="/js/lightbox.js"></script>
+<head>
+  <head><meta charset="utf-8">
 <meta http-equiv="content-type" content="text/html">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -53,7 +57,7 @@
         },
         "datePublished": "2025-09-11",
         "description": "",
-        "wordCount":  541 ,
+        "wordCount":  1002 ,
         "mainEntityOfPage": "True",
         "dateModified": "2025-09-11",
         "image": {
@@ -74,8 +78,8 @@
     <meta property="og:url" content="http://localhost:1313/posts/project-management-in-excel/">
   <meta property="og:site_name" content="iowafloyd - an engineering blog">
   <meta property="og:title" content="Project Management in Excel">
-  <meta property="og:description" content="What College Doesn’t Teach One thing that my ABET-accredited degree did not teach me was just how much I would need some form of project managment in my professional life.
-Maybe that’s because, depending on the company you work for once you graduate, you may or may not need to have project management skills. Or maybe project management is just hard to teach out of a textbook. As someone who enjoys teaching others, I bet the latter is the true reason.">
+  <meta property="og:description" content="Why project management? The curriculum at Iowa State University taught me a lot (statics, mechanics, thermodynamics, procrastination…), but it didn’t teach me anything about project management. Why is that? I’ve had to use some form of project management in my daily professional life since day one.
+I’m betting that project management is just one of those things that’s hard to put into a textbook. Because (at least in my experience) you only really learn project management when Plan A goes sideways. So you make Plan B… half of which goes sideways. So you make… You get it.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -90,8 +94,8 @@ Maybe that’s because, depending on the company you work for once you graduate,
     
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Project Management in Excel">
-  <meta name="twitter:description" content="What College Doesn’t Teach One thing that my ABET-accredited degree did not teach me was just how much I would need some form of project managment in my professional life.
-Maybe that’s because, depending on the company you work for once you graduate, you may or may not need to have project management skills. Or maybe project management is just hard to teach out of a textbook. As someone who enjoys teaching others, I bet the latter is the true reason.">
+  <meta name="twitter:description" content="Why project management? The curriculum at Iowa State University taught me a lot (statics, mechanics, thermodynamics, procrastination…), but it didn’t teach me anything about project management. Why is that? I’ve had to use some form of project management in my daily professional life since day one.
+I’m betting that project management is just one of those things that’s hard to put into a textbook. Because (at least in my experience) you only really learn project management when Plan A goes sideways. So you make Plan B… half of which goes sideways. So you make… You get it.">
 
 
     
@@ -122,11 +126,11 @@ Maybe that’s because, depending on the company you work for once you graduate,
     
     
 </head>
-<body data-theme = "auto" class="notransition">
 
-<script src="/js/theme.js"></script>
-
-<div class="navbar" role="navigation">
+</head>
+<body>
+  <header>
+    <div class="navbar" role="navigation">
     <nav class="menu" aria-label="Main Navigation">
         <a href="http://localhost:1313/" class="logo">
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" 
@@ -185,6 +189,9 @@ stroke-linejoin="round" class="feather feather-home">
     </nav>
 </div>
 
+  </header>
+  <main>
+    
 <div class="wrapper post">
     <main class="page-content" aria-label="Content">
         <article>
@@ -208,41 +215,100 @@ stroke-linejoin="round" class="feather feather-home">
         <summary><b>Table of Contents</b></summary>
         <nav id="TableOfContents">
   <ul>
-    <li><a href="#what-college-doesnt-teach">What College Doesn&rsquo;t Teach</a></li>
-    <li><a href="#projects-101">Projects 101</a></li>
-    <li><a href="#seeing-the-trees-vs-the-forest">Seeing the Trees vs. the Forest</a></li>
+    <li><a href="#why-project-management">Why project management?</a></li>
+    <li><a href="#brain-power-low-gear-vs-high-gear">Brain power: low-gear vs. high-gear</a></li>
     <li><a href="#inspiration-excel-gantt-v-10">Inspiration: Excel Gantt v 1.0</a></li>
+    <li><a href="#excel-gantt-20-the-project-master">Excel Gantt 2.0: the &ldquo;Project Master&rdquo;</a>
+      <ul>
+        <li><a href="#project-timeline">Project Timeline</a></li>
+        <li><a href="#action-items">Action Items</a></li>
+        <li><a href="#project-drop-down">Project Drop-down</a></li>
+        <li><a href="#miscellaneous-timeline">Miscellaneous Timeline</a></li>
+        <li><a href="#inputting-action-items">Inputting Action Items</a></li>
+        <li><a href="#calendar-view--date-picker">Calendar View &amp; Date-Picker</a></li>
+        <li><a href="#auto-rebuilding-of-timeline">Auto-Rebuilding of Timeline</a></li>
+        <li><a href="#todays-agenda">Today&rsquo;s Agenda</a></li>
+        <li><a href="#forecasting-task-selection-and-gantt-scrolling">Forecasting, Task Selection, and Gantt Scrolling</a></li>
+        <li><a href="#macros">Macros</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
     </details>
             <div class="page-content">
-                <h2 id="what-college-doesnt-teach">What College Doesn&rsquo;t Teach</h2>
-<p>One thing that my ABET-accredited degree did not teach me was just how much I would need some form of project managment in my professional life.</p>
-<p>Maybe that&rsquo;s because, depending on the company you work for once you graduate, you may or may not need to have project management skills. Or maybe project management is just hard to teach out of a textbook. As someone who enjoys teaching others, I bet the latter is the true reason.</p>
-<p>I&rsquo;ve worked for three companies thus far in my career, but by and large most of that tenure has been spent with just one company, my current one. They&rsquo;re well-established, having begun back in the early 1900&rsquo;s, and they employ several hundred people (it&rsquo;s always changing, but it&rsquo;s more than 500 and less than 1,000). So, they&rsquo;re a good &ldquo;medium-sized company&rdquo;. That might not be impressive compared to well-known brands such as John Deere, Boeing, Caterpillar, Lockheed Martin, etc&hellip; but I can say that this company has products on all sevent continents. Let that sink in for a moment.</p>
-<h2 id="projects-101">Projects 101</h2>
-<p>At my current company, the higher-level engineers are both Design Engineer and Project Engineer. We take a specified list of needs from the customer, determine what type of technology is most appropriate for that application, brainstorm with a team to develop some design concepts, narrow down the list to the most promising 2 to 3 concepts, and create a plan and timeline for the entire project from:</p>
-<ul>
-<li>CAD model/drawing creation</li>
-<li>material procurement</li>
-<li>parts machining and assembly</li>
-<li>internal development testing</li>
-<li>external &ldquo;field&rdquo; validation testing</li>
-<li>costing of the final working design at production quantities</li>
-<li>hand-off to Manufacturing and product launch</li>
-</ul>
-<p>That&rsquo;s a lot to keep track of! And this is done for each of possibly a handful of projects that the engineer manages simultaneously.</p>
-<h2 id="seeing-the-trees-vs-the-forest">Seeing the Trees vs. the Forest</h2>
-<p>Personally, I&rsquo;m really good at being up-to-my-eyeballs in the details of things. I&rsquo;m very comfortable being in the thick of things with a tough challenge to solve, and learning all the variables at play and all the possible solutions. That&rsquo;s where my brain is the most efficient.</p>
-<p>Where it&rsquo;s least efficient is with the larger picture, and keeping track of all the moving parts (of one particular project and of all the projects I have at once). Knowing what the current progress is with the design of X while also knowing how far along a supplier is with making Y components. And what can be done in the meantime while waiting on these things. All the logistics are hard for me.</p>
-<p>I decided early on that I needed a tool to help me see the big picture while also being able to record all the details. See, I&rsquo;m also very methodical. I need to write things down as I go. I need to document things, both for myself later on, or for someone else years later.</p>
+                <h2 id="why-project-management">Why project management?</h2>
+<p>The curriculum at Iowa State University taught me a lot (statics, mechanics, thermodynamics, procrastination&hellip;), but it didn&rsquo;t teach me anything about project management. Why is that? I&rsquo;ve had to use some form of project management in my daily professional life since day one.</p>
+<p>I&rsquo;m betting that project management is just one of those things that&rsquo;s hard to put into a textbook. Because (at least in my experience) you only really learn project management when Plan A goes sideways. So you make Plan B&hellip; half of which goes sideways. So you make&hellip; You get it.</p>
+<p>I&rsquo;ve worked for three companies thus far in my career, but by and large most of that tenure has been spent with just one company, Viking Pump. Most people haven&rsquo;t heard of them, though they&rsquo;ve been in business since 1911, their products pump things you use everyday but never think about (toothpaste, asphalt, marshmallow fluff), and they&rsquo;re one of very vew companies that can truthfully say they have products on all sevent continents. Let that sink in for a moment.</p>
+<p>As I&rsquo;ve progressed in my career at Viking, I&rsquo;ve taken on more responsibility with the overall ownership of a project. At first, I was just responsible for the CAD modeling and some calculations. Further on, I took on the development testing and validation stage. Further on, I took on the total pump design, including the entire bill of materials, working with Supply Chain to get new parts quoted and ordered, and owning the total cost of the product. Finally, added onto this was the ownership of the whole process: everything above, but also planning out just who has to do what, when things need to be done, and when the concept has been fully tested and proved out, and is ready for production implementation.</p>
+<p>That&rsquo;s a lot to keep track of! And all this is done for each project, where each engineer handles a number of projects simultaneously.</p>
+<h2 id="brain-power-low-gear-vs-high-gear">Brain power: low-gear vs. high-gear</h2>
+<p>All these&hellip; &ldquo;logistics&rdquo;&hellip; are difficult for my brain to handle. My brain just isn&rsquo;t as efficient at it as it is with details. Or in more mechanical car-related terms, my brain is most efficient when it&rsquo;s in gears 1 through 3. The low-speed, high-torque gears. Chugging away solving a technical problem with lots of little variables all at play, but somehow there&rsquo;s a path forward if you just get some traction bit-by-bit.</p>
+<p>Project management, on the other hand, is more like gears 3 through 5 (or 6, if you&rsquo;ve got one of thoes fancy cars). I see project management as the ability to get from here to there &ndash; that far-off, distant goal &ndash; and mapping out the quickest, most efficient route. You&rsquo;ll need traction along the way, but gears 3 through 5-or-6 are all about speed and efficiency.</p>
+<p>The difference between cars and people in this analogy is that people tend to be better at one or the other. My brain-engine is very efficient going from fully-stopped to rolling along at 40MPH in 3rd gear. My brain-engine has a hard time transitioning into 4th and 5th gears to really get speed. If my brain is kept in these high gears for too long, like any mechanical device stuck in a low-efficiency state, it starts to overheat and not work as well.</p>
+<p>So, I&rsquo;ve had to lean on tools to help me do the job. The tool I needed was one that allowed me to keep track of both the little detailed things, and the larger logistic things, all in one place. And for me to be able to &ldquo;see&rdquo; things further out in the future, it had to be fairly visual. It seemed what I needed was a good ol&rsquo; Gantt chart.</p>
 <h2 id="inspiration-excel-gantt-v-10">Inspiration: Excel Gantt v 1.0</h2>
-<p>I didn&rsquo;t make this from scratch; I actually found a much simpler version online when I&rsquo;d searched for &ldquo;Excel Gantt chart&rdquo; or something similar. The original version was created by XXX (fill in this info later). What she had was exactly the skeleton I needed to work from. See below:</p>
-
+<p>I didn&rsquo;t make this from scratch; I actually found a much simpler version online when I&rsquo;d searched for &ldquo;Excel Gantt chart&rdquo; or something similar. The original version was created by <a href="https://www.linkedin.com/in/glennashaw/">Glenna Shaw</a>, but I can&rsquo;t find the original version to display here.</p>
+<p>Glenna&rsquo;s version could track one project, with a place to input tasks and start/end dates, who the owner of that task was, and even information on how much they were paid by the hour, I think. Then, as outputs, there was the Gantt chat and also a total project cost (&ldquo;are we ahead or behind&rdquo; kind of thing). It was pretty well laid-out, I have to say. It was a great place to start, but I needed more multi-purpose functionality. I didn&rsquo;t want to have separate spreadsheets for each project. I wanted a one-stop-shop for everything that I was working on, whether it be a years-long platform project or a couple-days administrative task. Only when I could track everything from the big to the small, and have it all laid out in a timeline, could I use this tool to get better at <strong>thinking</strong> like a project manager. That was the key.</p>
+<h2 id="excel-gantt-20-the-project-master">Excel Gantt 2.0: the &ldquo;Project Master&rdquo;</h2>
+<p>Below are a few screenshots showing the major functionality of the spreadsheet. I put a lot of &ldquo;UX thinking&rdquo; into the layout, where the main page is purely for visual data output and all other pages are for data input. An Excel version of &ldquo;front-end vs. back-end&rdquo;.</p>
+<p>I&rsquo;ll explain more about each screenshot in next few days, but for now I just wanted to get this blog post mostly written and up on the site.</p>
+<h3 id="project-timeline">Project Timeline</h3>
+<a href="/img/01_Project_1_Timeline.png">
+    <img src="/img/01_Project_1_Timeline.png" alt="Screenshot of Timeline view - the Gantt chart" />
+</a>
+<p>(more info about this screenshot to come later&hellip;)</p>
+<h3 id="action-items">Action Items</h3>
+<a href="/img/02_Action_Items.png">
+    <img src="/img/02_Action_Items.png" alt="Screenshot of list of action items" />
+</a>
+<p>(more info about this screenshot to come later&hellip;)</p>
+<h3 id="project-drop-down">Project Drop-down</h3>
+<a href="/img/03_Project_Dropdown.png">
+    <img src="/img/03_Project_Dropdown.png" alt="Screenshot of drop-down list for changing projects" />
+</a>
+<p>(more info about this screenshot to come later&hellip;)</p>
+<h3 id="miscellaneous-timeline">Miscellaneous Timeline</h3>
+<a href="/img/04_Misc_Timeline.png">
+    <img src="/img/04_Misc_Timeline.png" alt="Screenshot of Timeline view of the Miscellaneous items" />
+</a>
+<p>(more info about this screenshot to come later&hellip;)</p>
+<h3 id="inputting-action-items">Inputting Action Items</h3>
+<a href="/img/05_Inputting_Action_Items.png">
+    <img src="/img/05_Inputting_Action_Items.png" alt="Screenshot of inputting new action items" />
+</a>
+<p>(more info about this screenshot to come later&hellip;)</p>
+<h3 id="calendar-view--date-picker">Calendar View &amp; Date-Picker</h3>
+<a href="/img/06_Calendar.png">
+    <img src="/img/06_Calendar.png" alt="Screenshot of yearly calendars from 2025 to 2030" />
+</a>
+<p>(more info about this screenshot to come later&hellip;)</p>
+<h3 id="auto-rebuilding-of-timeline">Auto-Rebuilding of Timeline</h3>
+<a href="/img/07_Misc_Auto-Rebuild_Timeline.png">
+    <img src="/img/07_Misc_Auto-Rebuild_Timeline.png" alt="Screenshot of Timeline auto-rebuilding with new action items" />
+</a>
+<p>(more info about this screenshot to come later&hellip;)</p>
+<h3 id="todays-agenda">Today&rsquo;s Agenda</h3>
+<a href="/img/08_Todays_Agenda.png">
+    <img src="/img/08_Todays_Agenda.png" alt="Screenshot of all open projects & action items shown at once" />
+</a>
+<p>(more info about this screenshot to come later&hellip;)</p>
+<h3 id="forecasting-task-selection-and-gantt-scrolling">Forecasting, Task Selection, and Gantt Scrolling</h3>
+<a href="/img/09_Forecasting_Task_Selection_Gantt_Scroll.png">
+    <img src="/img/09_Forecasting_Task_Selection_Gantt_Scroll.png" alt="Screenshot of usability features when viewing the Timeline" />
+</a>
+<p>(more info about this screenshot to come later&hellip;)</p>
+<h3 id="macros">Macros</h3>
+<a href="/img/11_Macros.png">
+    <img src="/img/11_Macros.png" alt="Screenshot of macros used for the Excel file" />
+</a>
             </div>
         </article></main>
 </div>
-<footer class="footer">
+
+  </main>
+  <footer>
+    <footer class="footer">
     <span class="footer_item"> </span>
     &nbsp;
 
@@ -285,19 +351,7 @@ stroke-linejoin="round" class="feather feather-home">
 </svg>
 
 </a>
-
-
-    
-
-
-
-
-
-
-    
-    <script async src="http://localhost:1313/js/main.js" ></script>
-
-    
-
+  </footer>
 </body>
+
 </html>

@@ -1,6 +1,6 @@
 +++
 date = 2025-09-01T18:00:00-06:00
-title = "Hello World"
+title = 'Hello World'
 +++
 
 Hello, World!

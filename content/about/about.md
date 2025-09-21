@@ -1,7 +1,7 @@
 +++
-title = "About"
-date = "2025-09-05"
-languageCode = "en-us"
+title = 'About'
+date = '2025-09-05'
+languageCode = 'en-us'
 +++
 
 # About me

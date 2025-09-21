@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+<link rel="stylesheet" href="/css/lightbox.css">
+<script src="/js/lightbox.js"></script>
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  <header>
+    {{ partial "header.html" . }}
+  </header>
+  <main>
+    {{ block "main" . }}
+      This will be replaced with content from the 
+      corresponding "define" action found in the template
+      to which this base template is applied.
+    {{ end }}
+  </main>
+  <footer>
+    {{ partial "footer.html" . }}
+  </footer>
+</body>
+
+</html>
