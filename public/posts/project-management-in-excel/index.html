@@ -57,7 +57,7 @@
         },
         "datePublished": "2025-09-11",
         "description": "",
-        "wordCount":  2283 ,
+        "wordCount":  3228 ,
         "mainEntityOfPage": "True",
         "dateModified": "2025-09-11",
         "image": {
@@ -291,41 +291,59 @@ stroke-linejoin="round" class="feather feather-home">
 <a href="/img/03_Project_Dropdown.png">
     <img src="/img/03_Project_Dropdown.png" alt="Screenshot of drop-down list for changing projects" />
 </a>
-<p>(more info about this screenshot to come later&hellip;)</p>
+<p>Back at the Timeline sheet, the macros enabled by clicking the link to the sheet have done their work, adding and rearranging tasks in the background. Both the Gantt chart at the bottom, and the list of action items for that project at the top, will auto-update.</p>
+<p>The main focus of this screenshot is the Project drop-down. We&rsquo;re currently displaying Project 1, but there are several others we can choose from. Clicking on any other project in the drop-down will auto-update the action item list and the Gantt chart.</p>
+<p>For instance, if we go to the Miscellaneous category&hellip;</p>
 <h3 id="miscellaneous-timeline">Miscellaneous Timeline</h3>
 <a href="/img/04_Misc_Timeline.png">
     <img src="/img/04_Misc_Timeline.png" alt="Screenshot of Timeline view of the Miscellaneous items" />
 </a>
-<p>(more info about this screenshot to come later&hellip;)</p>
+<p>You can see that we already have a few things done or partially done.</p>
+<p>What&rsquo;s the first task that hasn&rsquo;t been started yet? I&rsquo;ll admit, it&rsquo;s kind of hard to see from just the chart. To help focus on a certain task, there&rsquo;s another simple macro to show here.</p>
+<p>See that first line in the action items, the one that&rsquo;s highlighted yellow? I want to see what the first task is that is yet-to-do. That&rsquo;ll have a 0% completion in column S. If I click on that line with the first 0% Completion, that row will highlight. Then it&rsquo;s much easier to look to the left to see what the actual task is.</p>
+<p>You know what, I remembered there was something I needed to do, but I started it a few days ago&hellip; Let&rsquo;s jump back to the Action Items sheet by clicking the link in cell D6.</p>
 <h3 id="inputting-action-items">Inputting Action Items</h3>
 <a href="/img/05_Inputting_Action_Items.png">
     <img src="/img/05_Inputting_Action_Items.png" alt="Screenshot of inputting new action items" />
 </a>
-<p>(more info about this screenshot to come later&hellip;)</p>
+<p>Okay, I&rsquo;ve just added a task retrospectively. The task is &ldquo;Example out-of-order task&rdquo;, aptly named. See how its date is prior to some of the dates above? No worries. Simply click the link back to the Timeline sheet and the built-in macro will order it accordingly.</p>
+<p>One other thing to note about dates. Like Peter Griffin, this one really grinds my gears. A previous version of this spreadsheet used Microsofts DTPicker add-in, which made this sheet a lot easier. At the time, I clicked on a cell in columns F or G, a pop-up window would display a calendar of the current month. I could click on the date I wanted for Start Date or End Date, and that cell would populate with that value.</p>
+<p>Well, around the year 2020, Microsoft stopped supporting that. And so far, I have not found a decent replacement. I started to make my own, but I never got around to finishing it. It&rsquo;s the next screenshot&hellip;</p>
 <h3 id="calendar-view--date-picker">Calendar View &amp; Date-Picker</h3>
 <a href="/img/06_Calendar.png">
     <img src="/img/06_Calendar.png" alt="Screenshot of yearly calendars from 2025 to 2030" />
 </a>
-<p>(more info about this screenshot to come later&hellip;)</p>
+<p>This is the Calendar sheet. Yep, it&rsquo;s a calendar. Every day through the year 2030.</p>
+<p>The macro I haven&rsquo;t perfected yet will allow you to use this sheet as the new DTPicker to populate the date cells in the Action Items sheet. Some day&hellip;</p>
 <h3 id="auto-rebuilding-of-timeline">Auto-Rebuilding of Timeline</h3>
 <a href="/img/07_Misc_Auto-Rebuild_Timeline.png">
     <img src="/img/07_Misc_Auto-Rebuild_Timeline.png" alt="Screenshot of Timeline auto-rebuilding with new action items" />
 </a>
-<p>(more info about this screenshot to come later&hellip;)</p>
+<p>Okay, back to the Timeline sheet. Now you can see row 11, where the &ldquo;Example out-of-order task&rdquo; now resides.</p>
 <h3 id="todays-agenda">Today&rsquo;s Agenda</h3>
 <a href="/img/08_Todays_Agenda.png">
     <img src="/img/08_Todays_Agenda.png" alt="Screenshot of all open projects & action items shown at once" />
 </a>
-<p>(more info about this screenshot to come later&hellip;)</p>
+<p>I&rsquo;m almost done showing you all the bells and whistles. There&rsquo;s just one other major feature that you need to know about: Today&rsquo;s Agenda.</p>
+<p>So, I can track multiple projects of varying degrees of complexity, and have a Gantt chart for each of them. What if I just want to see, well&hellip; an agenda for today?</p>
+<p>Click that Project drop-down, select Today&rsquo;s Agenda, and presto-change-o! All projects (I should say, <strong>open</strong> projects) and their tasks are displayed. For the first time now, you can see what it looks like when something is behind schedule &ndash; that red portion of the first few tasks. I&rsquo;d better get to those soon.</p>
 <h3 id="forecasting-task-selection-and-gantt-scrolling">Forecasting, Task Selection, and Gantt Scrolling</h3>
 <a href="/img/09_Forecasting_Task_Selection_Gantt_Scroll.png">
     <img src="/img/09_Forecasting_Task_Selection_Gantt_Scroll.png" alt="Screenshot of usability features when viewing the Timeline" />
 </a>
-<p>(more info about this screenshot to come later&hellip;)</p>
+<p>So far, all these screenshots have shown you tasks and planning starting from &ldquo;today&rdquo;. I know what I need to do &ldquo;today&rdquo;, to forecast ahead. But what if I need to look a few weeks into the future and see what needs to be done by that date? Backcasting, if you will?</p>
+<p>Easy enough. &ldquo;Report Date&rdquo; in cell E3 defaults to the formula &ldquo;today()&rdquo;. So any time the spreadsheet is open, Excel pulls today&rsquo;s date from Windows. But if you want to look ahead and see how things would appear some time in the future&hellip; just change that cell to that particular date.</p>
+<p>Here I&rsquo;ve hard-coded the date for September 16th, which is about a week from the time of this writing. Finally, in the Gantt chart, there&rsquo;s a vertical blue line indicating the date. Now it&rsquo;s easy to see what needs to (a) have been done and (b) be done starting at that time.</p>
+<p>If I had picked a date a bit further out, like say, 10/06&hellip; Currently, most of the tasks due for that date aren&rsquo;t even started. So they would show red for &ldquo;behind schedule&rdquo;. If 10/06 is some kind of drop-dead date, then it&rsquo;s easier to see exactly what needs done by then, or possibly that I need to shift priorities so that date is hit.</p>
+<p>Also see how that one line is highlighted yellow. I don&rsquo;t know why I chose that one; no particular reason. But I will just say that my personal syntax is to show a tasks that&rsquo;s someone else&rsquo;s responsibility, like suppliers&hellip; in square brackets. It&rsquo;s just a handy visual to let me know it&rsquo;s not my action to DO, but to follow-up on.</p>
+<p>Also I don&rsquo;t know why that very last task in the Gantt is out of order in the chart. Excel being wonky, I assume.</p>
 <h3 id="macros">Macros</h3>
 <a href="/img/11_Macros.png">
     <img src="/img/11_Macros.png" alt="Screenshot of macros used for the Excel file" />
 </a>
+<p>That&rsquo;s pretty much it for this Project Master spreadsheet. If you want to take it for a spin yourself, I&rsquo;ve put a copy here on GitHub. But to reiterate one last time, it <strong>DOES</strong> include macros. But I can assure you they&rsquo;re not malicious. The last screenshot is to show the macros mentioned.</p>
+<p>What do you think? It&rsquo;s obviously clunky by today&rsquo;s online SAAS standards, but for being a child of the 2015 era, I think it does a decent job. But I&rsquo;d love to hear what you think. Is there a different/better spreadsheet you use? Got suggestions for adding functionality or making things easier than they currently are? I&rsquo;d love to get your feedback.</p>
+
             </div>
         </article></main>
 </div>

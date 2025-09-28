@@ -90,51 +90,87 @@ To reiterate, once you're done adding or updating Action Items, do your mouse an
     <img src="/img/03_Project_Dropdown.png" alt="Screenshot of drop-down list for changing projects" />
 </a>
 
-(more info about this screenshot to come later...)
+Back at the Timeline sheet, the macros enabled by clicking the link to the sheet have done their work, adding and rearranging tasks in the background. Both the Gantt chart at the bottom, and the list of action items for that project at the top, will auto-update.
+
+The main focus of this screenshot is the Project drop-down. We're currently displaying Project 1, but there are several others we can choose from. Clicking on any other project in the drop-down will auto-update the action item list and the Gantt chart.
+
+For instance, if we go to the Miscellaneous category... 
 
 ### Miscellaneous Timeline
 <a href="/img/04_Misc_Timeline.png">
     <img src="/img/04_Misc_Timeline.png" alt="Screenshot of Timeline view of the Miscellaneous items" />
 </a>
 
-(more info about this screenshot to come later...)
+You can see that we already have a few things done or partially done.
+
+What's the first task that hasn't been started yet? I'll admit, it's kind of hard to see from just the chart. To help focus on a certain task, there's another simple macro to show here.
+
+See that first line in the action items, the one that's highlighted yellow? I want to see what the first task is that is yet-to-do. That'll have a 0% completion in column S. If I click on that line with the first 0% Completion, that row will highlight. Then it's much easier to look to the left to see what the actual task is.
+
+You know what, I remembered there was something I needed to do, but I started it a few days ago... Let's jump back to the Action Items sheet by clicking the link in cell D6.
 
 ### Inputting Action Items
 <a href="/img/05_Inputting_Action_Items.png">
     <img src="/img/05_Inputting_Action_Items.png" alt="Screenshot of inputting new action items" />
 </a>
 
-(more info about this screenshot to come later...)
+Okay, I've just added a task retrospectively. The task is "Example out-of-order task", aptly named. See how its date is prior to some of the dates above? No worries. Simply click the link back to the Timeline sheet and the built-in macro will order it accordingly.
+
+One other thing to note about dates. Like Peter Griffin, this one really grinds my gears. A previous version of this spreadsheet used Microsofts DTPicker add-in, which made this sheet a lot easier. At the time, I clicked on a cell in columns F or G, a pop-up window would display a calendar of the current month. I could click on the date I wanted for Start Date or End Date, and that cell would populate with that value.
+
+Well, around the year 2020, Microsoft stopped supporting that. And so far, I have not found a decent replacement. I started to make my own, but I never got around to finishing it. It's the next screenshot...
 
 ### Calendar View & Date-Picker
 <a href="/img/06_Calendar.png">
     <img src="/img/06_Calendar.png" alt="Screenshot of yearly calendars from 2025 to 2030" />
 </a>
 
-(more info about this screenshot to come later...)
+This is the Calendar sheet. Yep, it's a calendar. Every day through the year 2030.
+
+The macro I haven't perfected yet will allow you to use this sheet as the new DTPicker to populate the date cells in the Action Items sheet. Some day...
 
 ### Auto-Rebuilding of Timeline
 <a href="/img/07_Misc_Auto-Rebuild_Timeline.png">
     <img src="/img/07_Misc_Auto-Rebuild_Timeline.png" alt="Screenshot of Timeline auto-rebuilding with new action items" />
 </a>
 
-(more info about this screenshot to come later...)
+Okay, back to the Timeline sheet. Now you can see row 11, where the "Example out-of-order task" now resides.
 
 ### Today's Agenda
 <a href="/img/08_Todays_Agenda.png">
     <img src="/img/08_Todays_Agenda.png" alt="Screenshot of all open projects & action items shown at once" />
 </a>
 
-(more info about this screenshot to come later...)
+I'm almost done showing you all the bells and whistles. There's just one other major feature that you need to know about: Today's Agenda.
+
+So, I can track multiple projects of varying degrees of complexity, and have a Gantt chart for each of them. What if I just want to see, well... an agenda for today?
+
+Click that Project drop-down, select Today's Agenda, and presto-change-o! All projects (I should say, **open** projects) and their tasks are displayed. For the first time now, you can see what it looks like when something is behind schedule -- that red portion of the first few tasks. I'd better get to those soon.
+
+
 
 ### Forecasting, Task Selection, and Gantt Scrolling
 <a href="/img/09_Forecasting_Task_Selection_Gantt_Scroll.png">
     <img src="/img/09_Forecasting_Task_Selection_Gantt_Scroll.png" alt="Screenshot of usability features when viewing the Timeline" />
 </a>
 
-(more info about this screenshot to come later...)
+So far, all these screenshots have shown you tasks and planning starting from "today". I know what I need to do "today", to forecast ahead. But what if I need to look a few weeks into the future and see what needs to be done by that date? Backcasting, if you will?
+
+Easy enough. "Report Date" in cell E3 defaults to the formula "today()". So any time the spreadsheet is open, Excel pulls today's date from Windows. But if you want to look ahead and see how things would appear some time in the future... just change that cell to that particular date.
+
+Here I've hard-coded the date for September 16th, which is about a week from the time of this writing. Finally, in the Gantt chart, there's a vertical blue line indicating the date. Now it's easy to see what needs to (a) have been done and (b) be done starting at that time.
+
+If I had picked a date a bit further out, like say, 10/06... Currently, most of the tasks due for that date aren't even started. So they would show red for "behind schedule". If 10/06 is some kind of drop-dead date, then it's easier to see exactly what needs done by then, or possibly that I need to shift priorities so that date is hit.
+
+Also see how that one line is highlighted yellow. I don't know why I chose that one; no particular reason. But I will just say that my personal syntax is to show a tasks that's someone else's responsibility, like suppliers... in square brackets. It's just a handy visual to let me know it's not my action to DO, but to follow-up on.
+
+Also I don't know why that very last task in the Gantt is out of order in the chart. Excel being wonky, I assume.
 
 ### Macros
 <a href="/img/11_Macros.png">
     <img src="/img/11_Macros.png" alt="Screenshot of macros used for the Excel file" />
 </a>
+
+That's pretty much it for this Project Master spreadsheet. If you want to take it for a spin yourself, I've put a copy here on GitHub. But to reiterate one last time, it **DOES** include macros. But I can assure you they're not malicious. The last screenshot is to show the macros mentioned.
+
+What do you think? It's obviously clunky by today's online SAAS standards, but for being a child of the 2015 era, I think it does a decent job. But I'd love to hear what you think. Is there a different/better spreadsheet you use? Got suggestions for adding functionality or making things easier than they currently are? I'd love to get your feedback.
