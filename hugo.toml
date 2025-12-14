@@ -85,3 +85,7 @@ ignoreErrors = ["additional-script-loading-error"]
  theme_color = "#434648"
  background_color = "#fff"
  display = "standalone"
+
+ [module]
+  [[module.imports]]
+    path = "hugo-blog-awesome"
