@@ -1,0 +1,54 @@
++++
+date = 2026-02-15T09:43:54-06:00
+title = ‘Automate to Delegate the Small Stuff’
+Draft = ‘false’
++++
+
+The What
+========
+
+As of today, I have subscribed to the envelope-style personal budget app, Goodbudget (formerly called EEBA) for twelve years. I am so glad I found it (okay, in full transparency, my wife found it) after I'd tried and struggled for a couple of years to track my budget in a spreadsheet. If I do say so myself, I'm very good with a spreadsheet (see Project Management in Excel for one example). But try as I might, I couldn't figure out a way to easily track (a) money coming in, (b) expenses that have already been made and (c) expenses pending at the bank but for my intents and purposes, already gone from my budget. Back twelve years ago, this app called EEBA (Easy Envelope Budget Aid) was in its infancy and seemed like just what I needed. As it turns out, it was!
+
+This post isn't about the app specifically, so that's as much gushing about the actual app as I'm going to do. The caveat to using it, and actually the reason that I chose that app over a couple of others, was this one flaw-and-benefit: it did not sync to any bank accounts, so every transaction had to be made manually. That meant that every purchase at a gas station or restaurant or online required that I get the printed receipt, or make sure to check my email for the purchase verification and full after-tax cost. Then, between once and twice between paychecks, sitting down for about half an hour with a stack of receipts and my phone, and manually entering in each one. Then, the day before the next paycheck was due to arrive, looking at the current bank account balance and the difference between what the bank showed and what EEBA (-- sorry -- ) Goodbudget showed, and doing some mathematical gymnastics to make them match (i.e. balancing the budget).
+
+The Why
+=======
+
+As I said, I chose this app over others that already had bank syncing built-in. I could've saved myself all this hassle which recurred every two weeks like clockwork for over a decade. Why? For two reasons: (healthy?) skepticism, and grit.
+
+Healthy Skepticism
+==================
+
+Remember, this was twelve years ago when I found out "there's an app for that", so the year was 2014. Of course at this time, e-commerce wasn't exactly in its infancy, and online shopping and banking were standard and relatively cyber-secure. But these companies with their apps were relatively new, and as such in my mind, may not have all the cybersercurity built-in that they should, for such sensitive information as my bank account. Plus, at that time I was finally getting my feet under me from having been swept up in the joblessness of the Great Recession, while owing massive amounts of school loans. I didn't have the risk tolerance to try some new-fangled app that has access to my (severely limited in funds) bank account.
+
+Grit
+====
+
+The other factor in choosing this particular app with its lack-of-a-feature was all about personal development. Even though I was great at keeping receipts and having a decent mental image of how much money I had, I needed to hone this skill myself before I let a program take over. And, well, I'm also a bit of a control freak who wants to be able to take over and do all the things in the case that the automation isn't doing it right (for example, I still drive a car with a manual transmission).
+
+Do you know how hard it is to go through the grocery check-out, or fill up your gas tank, and make sure you say, "yes I want the receipt" ?? I don't know why, but when I started doing that, I felt kind of guilty. Or, "less than." I felt like admitting that I needed the receipt was an admission that I was insecure about how much money I had. It felt like that hypothetical moment where you're buying something and you give them your card and the cashier gives you that "I'm sorry" face and tells you it's been declined.
+
+I kept buying the things I needed (and the things I didn't really need...) and keeping the receipt. Then putting in the receipt either that same day, or on the last day before a new paycheck. It was tedius. It was self-belittling. It was very humbling.
+
+But it became very, very rewarding.
+
+Imagine my emotions as those first few weeks came and went, and I kept asking for the receipt and manually typing it into the app. Seeing all my virtual envelopes fill up with green with a new paycheck, then slowly dwindle down to zero (or in the case of the Eating Out envelope, red) right before the next paycheck. But right before that next paycheck, looking at my bank account balance and seeing the exact same number there, as in the app. Imagine being someone who tries and tries to live below their means and *think* they know how much they have in their account, only to always be surprised that they have a lot less than they should... to, all of a sudden, being *exactly* sure how much they have in their account, by just glancing at their phone. And what's more, imagine all of a sudden knowing exactly how much your life costs, based on these envelopes you have for all the necessities... and realizing that you actually make plenty of money to cover your needs, as well as some of your wants, if you only stay true to your budget! It's so empowering.
+
+You know the phrase, "knowledge is power." It's my belief that the knowledge and power of my Bachelor's of Science in Mechanical Engineering degree is far outshadowed by the knowledge and power of learning how to set and live within a budget. Which is exactly what every profitable business does. But, whereas even the most highly skilled engineer *without* a budget skillset will have to work for a business until he hopefully retires... an entry-level engineer (or anyone who works without any degree at all) that *does* know how to budget, knows that he is his own business and works for himself.
+
+--
+
+Okay, I got way off on a tanget there. Let's bring it back on-point.
+
+Suffice to say, I made myself (and my wife) follow this strict exercise program. We did it for years. Then, finally just last week, we had yet another moment of budget balancing where the two didn't agree. This actually happens much more often than it should, where somehow one or two transactions didn't get put into Goodbudget. Maybe we forgot to account for sales tax. Or we forgot to include the tip in the amount. Either way, for the umpteenth time, Goodbudget told us we had ~$600 left for the next week before the next paycheck, but the bank account showed $200. That's a huge difference. Now like I said, it's happened before on numerous occasions, and I've learned not to panic about it. But this time something finally clicked.
+
+I realized that my wife and I had become proficient at balancing the budget ourselves. The process had become muscle memory. But we still weren't perfect and yet again we had to go see where we were off by hundreds of dollars, and even though I didn't panic, I was stressed. But out of nowhere it popped into my head, that just recently Goodbudget started offering a higher tier subscription with the perk of syncing with your bank account. And it's been years since I'd originally thought that having an app sync to my bank was too risky. After all these years, more and more apps had this ability and it's become ubiquitous and there have been no major security flaw revelations.
+
+We knew how to do it ourselves, and we knew the process worked. It was time to hand over the reins to automation. Our "home business" had grown to the point where that process was as streamlined as could be, but the implementation was costing us more in time and energy than its benefit.
+
+The Takeaway
+============
+
+I often find inspiration for leading my home life from how my employer leads its business life. This is a great example. It echoes the natural progression of any professional, from entry-level to mid-level to senior-level. You start off doing all the small-in-scope, detailed, tedious things. After you've mastered that, you're given larger-scope, less-detailed, more broad-based things. And what happens to all the smaller-scope, detailed things that are still required? Some of them you still might do, but if the benefit outweighs the cost, you delegate those smaller things to the *new* entry-level person. Or, in this Silicon Age, you delegate it to a program. This allows you to get more done (bring more value) per unit of time, than you could've done before.
+
+Now, it's only been a week since I've used the syncing feature. And I can tell the process isn't going to be without its bumps in the road. For instance, the paycheck is still pending so it doesn't show up in the app... and the app still shows we have about $100 left. That's a bit uncomfortable. But I have to remind myself: they're the new guy; it'll take a bit to get them up to speed. We'll see how they're during at their 90-day review.
