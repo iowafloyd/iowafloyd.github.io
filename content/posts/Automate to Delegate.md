@@ -1,6 +1,7 @@
 +++
 date = 2026-02-15T09:43:54-06:00
 title = 'Automate to Delegate the Small Stuff'
+draft = false
 +++
 
 The What
