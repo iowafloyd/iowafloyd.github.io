@@ -4,25 +4,21 @@ title = 'Automate to Delegate the Small Stuff'
 draft = false
 +++
 
-The What
-========
+## The What
 
 As of today, I have subscribed to the envelope-style personal budget app, Goodbudget (formerly called EEBA) for twelve years. I am so glad I found it (okay, in full transparency, my wife found it) after I'd tried and struggled for a couple of years to track my budget in a spreadsheet. If I do say so myself, I'm very good with a spreadsheet (see Project Management in Excel for one example). But try as I might, I couldn't figure out a way to easily track (a) money coming in, (b) expenses that have already been made and (c) expenses pending at the bank but for my intents and purposes, already gone from my budget. Back twelve years ago, this app called EEBA (Easy Envelope Budget Aid) was in its infancy and seemed like just what I needed. As it turns out, it was!
 
 This post isn't about the app specifically, so that's as much gushing about the actual app as I'm going to do. The caveat to using it, and actually the reason that I chose that app over a couple of others, was this one flaw-and-benefit: it did not sync to any bank accounts, so every transaction had to be made manually. That meant that every purchase at a gas station or restaurant or online required that I get the printed receipt, or make sure to check my email for the purchase verification and full after-tax cost. Then, between once and twice between paychecks, sitting down for about half an hour with a stack of receipts and my phone, and manually entering in each one. Then, the day before the next paycheck was due to arrive, looking at the current bank account balance and the difference between what the bank showed and what EEBA (-- sorry -- ) Goodbudget showed, and doing some mathematical gymnastics to make them match (i.e. balancing the budget).
 
-The Why
-=======
+## The Why
 
 As I said, I chose this app over others that already had bank syncing built-in. I could've saved myself all this hassle which recurred every two weeks like clockwork for over a decade. Why? For two reasons: (healthy?) skepticism, and grit.
 
-Healthy Skepticism
-==================
+### Healthy Skepticism
 
 Remember, this was twelve years ago when I found out "there's an app for that", so the year was 2014. Of course at this time, e-commerce wasn't exactly in its infancy, and online shopping and banking were standard and relatively cyber-secure. But these companies with their apps were relatively new, and as such in my mind, may not have all the cybersercurity built-in that they should, for such sensitive information as my bank account. Plus, at that time I was finally getting my feet under me from having been swept up in the joblessness of the Great Recession, while owing massive amounts of school loans. I didn't have the risk tolerance to try some new-fangled app that has access to my (severely limited in funds) bank account.
 
-Grit
-====
+### Grit
 
 The other factor in choosing this particular app with its lack-of-a-feature was all about personal development. Even though I was great at keeping receipts and having a decent mental image of how much money I had, I needed to hone this skill myself before I let a program take over. And, well, I'm also a bit of a control freak who wants to be able to take over and do all the things in the case that the automation isn't doing it right (for example, I still drive a car with a manual transmission).
 
@@ -46,8 +42,7 @@ I realized that my wife and I had become proficient at balancing the budget ours
 
 We knew how to do it ourselves, and we knew the process worked. It was time to hand over the reins to automation. Our "home business" had grown to the point where that process was as streamlined as could be, but the implementation was costing us more in time and energy than its benefit.
 
-The Takeaway
-============
+## The Takeaway
 
 I often find inspiration for leading my home life from how my employer leads its business life. This is a great example. It echoes the natural progression of any professional, from entry-level to mid-level to senior-level. You start off doing all the small-in-scope, detailed, tedious things. After you've mastered that, you're given larger-scope, less-detailed, more broad-based things. And what happens to all the smaller-scope, detailed things that are still required? Some of them you still might do, but if the benefit outweighs the cost, you delegate those smaller things to the *new* entry-level person. Or, in this Silicon Age, you delegate it to a program. This allows you to get more done (bring more value) per unit of time, than you could've done before.
 
